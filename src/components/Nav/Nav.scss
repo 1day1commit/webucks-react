@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  height: 45px;
+  margin: 0 auto 15px;
+  background-color: #f6f5ef;
+
+  .logo {
+    margin-left: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 13px;
+  }
+
+  .nav-menu {
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        margin-right: 30px;
+        font-size: 13px;
+        color: #939390;
+      }
+    }
+  }
+}
